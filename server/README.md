@@ -9,18 +9,15 @@ npm dev
 ```
 ## Env
 
-# The port on which the application will run. In this case, the application will run on port 8761.
-APP_PORT=8761
+```bash
+APP_PORT=8761 # The port on which the application will run. In this case, the application will run on port 8761.
 
-# The frontend URL used to access the application from a browser. In this case, the frontend runs at http://localhost:5174.
-FE_URL="http://localhost:5174"
+FE_URL="http://localhost:5174" # The frontend URL used to access the application from a browser. In this case, the frontend runs at http://localhost:5174.
 
-# The connection URI for MongoDB. This indicates that MongoDB is running on localhost at port 27017 and using a database named ackecms.
-MONGO_URI=mongodb://localhost:27017/ackecms
+MONGO_URI=mongodb://localhost:27017/ackecms # The connection URI for MongoDB. This indicates that MongoDB is running on localhost at port 27017 and using a database named ackecms.
 
-# The API key for accessing the GROQ service. This key is used for authentication when making requests to the GROQ API.
-GROQ_API_KEY=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
-
+GROQ_API_KEY=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 # The API key for accessing the GROQ service. This key is used for authentication when making requests to the GROQ API.
+```
 ## Dependencies
 A list of dependencies used in the project, along with brief explanations for each.
 

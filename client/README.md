@@ -9,8 +9,9 @@ npm start
 ```
 
 ## Env
-# The URL of the backend API that the frontend will communicate with. This should be set to the address where your backend server is running.
-VITE_BACKEND_API_URL=http://localhost:8761/api
+```bash
+VITE_BACKEND_API_URL=http://localhost:8761/api # The URL of the backend API that the frontend will communicate with. This should be set to the address where your backend server is running.
+```
 
 ## Dependencies
 A list of dependencies used in the project, along with brief explanations for each.
