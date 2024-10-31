@@ -5,7 +5,7 @@ To start the development server, you can use npm scripts. Run the following comm
 ```bash
 cd server
 npm install
-npm dev
+npm run start
 ```
 ## Env
 
